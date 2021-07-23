@@ -28,3 +28,6 @@ a = []
 a.append(x[:check])
 a.append(x[check+1:])
 print(a)
+# or we can simply use split
+
+print(x.split('-'))
